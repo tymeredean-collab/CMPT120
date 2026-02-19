@@ -52,9 +52,7 @@ def main():
     #what if I wanted you to print out only the even numbers in this range I made?
     for x in range (20, 501):
         #i feeeeel like modulooooooo is neededddd
-        if numbers[x] % 2 == 0:
-          print("even")
-        else:
-          print("odd")
+        if x % 2 == 0:
+            print(x)
     
 main()
