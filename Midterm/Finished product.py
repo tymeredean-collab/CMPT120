@@ -41,4 +41,4 @@ def main():
       print("Congratualations, you are an elite athlete")
     elif stamina <= 0:
       print("Burned out!")
-    
+  main()
