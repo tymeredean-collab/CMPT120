@@ -22,7 +22,7 @@ def main():
     print("3. Shoot (increase shooting)")
     print("4. Recover (increase stamina)")
     
-    user_choice = int(input("Pick a number: ")) ##This checks the user's input and applies their choice to their player
+    user_choice = int(input("Pick a number: ")) ## Checks the user's input and applies their choice to their player
     
     if user_choice == 1:
       strength += 3
